@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<h2>Log In</h2>
+  <form action="/auth/" method="POST">
+    <div><input type="trello-API-key" name="trello-API-key" placeholder="trello API key"></div>
+    <div><input type="trello-token" name="trello-token" placeholder="trello-token"></div>
+    <div><button type="submit">enter</button></div>
+  {% if invalid_input %}
+  <p class=error>Invalid Input</p>
+  {% endif %}
+  </form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "server1.js",
+  "author": "lvnvn",
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "license": "ISC"
+}

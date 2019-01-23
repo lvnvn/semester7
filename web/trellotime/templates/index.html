@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<form action="/index/"  method="POST">
+    <button type="submit" id="enter_btn">Log in trello</button>
+</form>
+{% endblock %}

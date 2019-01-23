@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "index.js",
+  "author": "lvnvn",
+  "dependencies": {
+    "express": "4.16.3",
+    "log4js": "^3.0.6",
+    "logger": "git+https://github.com/quirkey/node-logger.git",
+    "node-logger": "0.0.1",
+    "simple-node-logger": "^0.93.40"
+  }
+}

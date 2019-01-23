@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<h2>Task <i>{{task}}</i></h2>
+<div style="width: 50px; height: 30px; background-color: {{color}}; margin-bottom: 5px; display: block;"></div>
+<i>{{mark}}</i>
+<p>Description: <i>{{description}}</i> </p>
+
+<p>Passed time: <i>{{passedtime}}</i></p>
+<form action="/task/">
+	<p>Planned time:</p><input type="text" name="plannedtime" value="{{time}}">
+	<div><button type="submit" name="changetime">Edit planned time</button></div>
+	<div><button type="submit" name="start">Start working</button></div>
+</form>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<h2>Board <i>{{board}}</i></h2>
+<p>Lists:</p>
+  <form action="/lists/" method="POST">
+	{% for item in lists %}
+    <!-- <div><button type="submit" name={{item[1]}}>{{item[0]}}</button></div>-->
+    	<div class="listbox">
+    	<div class="listname"><i>{{item.name}}</i></div>
+    	{% for task in item.tasks %}
+    		<div><button type="submit">{{task}}</button></div>
+    	{% endfor %}
+    	</div>
+	{% endfor %}
+  </form>
+{% endblock %}

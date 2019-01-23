@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<h2>Task <i>{{task}}<i></h2>
+<div id="timer"></div>
+<script>
+	var start = new Date().getTime();
+	var expired = new Date();
+	expired.setTime(start + (8*60*60*1000)); 
+	var x = setInterval(function() {
+		var now = new Date().getTime();
+	  	var distance = now-start;
+
+	  	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  	document.getElementById("timer").innerHTML = hours + ":" + minutes + ":" + seconds;
+
+	  	if (now == expired.getTime) {
+	    	clearInterval(x);
+	    	document.getElementById("demo").innerHTML = "EXPIRED";
+		}
+	}, 1000);
+</script>
+<form action="/timer/">
+	<div><button type="submit" name="finish">Finish</button></div>
+	<div><button type="submit" name="cancel">Cancel</button></div>
+</form>
+
+Work on task will be stopped after 8 hours.
+{% endblock %}

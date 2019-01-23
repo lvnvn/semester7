@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block body %}
+<h2>Personal boards:</h2>
+  <form action="/boards/" method="POST">
+{% for board in boards %}
+    <div><button type="submit" name={{board[1]}}>{{board[0]}}</button></div>
+{% endfor %}
+  </form>
+{% endblock %}

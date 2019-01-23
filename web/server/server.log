@@ -1,0 +1,31 @@
+[2018-10-12T18:02:16.666] [DEBUG] server - logging is on
+[2018-10-12T18:02:51.688] [DEBUG] server - logging is on
+[2018-10-12T18:03:15.889] [DEBUG] server - logging is on
+[2018-10-12T18:04:04.954] [DEBUG] server - logging is on
+[2018-10-12T18:06:06.631] [DEBUG] server - logging is on
+[2018-10-12T18:06:13.030] [DEBUG] server - options request at /
+[2018-10-12T18:08:33.639] [DEBUG] server - logging is on
+[2018-10-12T18:08:37.452] [DEBUG] server - options request at /
+[2018-10-12T18:08:53.997] [DEBUG] server - get request request at /usr
+[2018-10-12T18:09:02.675] [DEBUG] server - post request request at /usr
+[2018-10-12T18:09:12.336] [DEBUG] server - delete request request at /usr
+[2018-10-12T18:09:22.902] [DEBUG] server - put request request at /usr
+[2018-10-12T18:14:37.026] [DEBUG] server - logging is on
+[2018-10-14T01:06:22.369] [DEBUG] server - options request at /
+[2018-10-14T01:11:33.170] [DEBUG] server - get request  at /usr
+[2018-10-14T01:12:39.791] [DEBUG] server - get request  at /usr
+[2018-10-14T01:13:11.960] [DEBUG] server - post request at /usr
+[2018-10-14T01:13:28.406] [DEBUG] server - get request  at /usr
+[2018-10-14T01:18:05.521] [DEBUG] server - options request at /
+[2018-10-16T13:48:43.000] [DEBUG] server - logging is on
+[2018-10-16T13:59:28.338] [DEBUG] server - get request  at /usr
+[2018-10-16T13:59:34.894] [DEBUG] server - get request  at /usr
+[2018-10-16T14:00:19.357] [DEBUG] server - get request  at /usr
+[2018-10-16T14:01:00.923] [DEBUG] server - get request  at /usr
+[2018-10-16T14:01:39.261] [DEBUG] server - get request  at /usr
+[2018-10-16T20:01:42.813] [DEBUG] server - logging is on
+[2018-10-16T20:03:57.441] [DEBUG] server - logging is on
+[2018-10-16T20:09:41.425] [DEBUG] server - get request  at /usr
+[2018-10-16T22:19:37.186] [DEBUG] server - logging is on
+[2018-10-16T22:41:31.328] [DEBUG] server - logging is on
+[2018-10-16T22:42:00.149] [DEBUG] server - get request  at /usr
